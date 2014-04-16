@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35D1DBB21DD9E94DFCE4993B /* WordsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1DF099E3AEC2EF73EF612 /* WordsGenerator.m */; };
 		7EE2EF5A18F8643900A4E1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2EF5918F8643900A4E1AC /* Foundation.framework */; };
 		7EE2EF5C18F8643900A4E1AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2EF5B18F8643900A4E1AC /* CoreGraphics.framework */; };
 		7EE2EF5E18F8643900A4E1AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2EF5D18F8643900A4E1AC /* UIKit.framework */; };
@@ -20,7 +21,7 @@
 		7EE2EF7A18F8643A00A4E1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2EF5918F8643900A4E1AC /* Foundation.framework */; };
 		7EE2EF7B18F8643A00A4E1AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2EF5D18F8643900A4E1AC /* UIKit.framework */; };
 		7EE2EF8318F8643A00A4E1AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE2EF8118F8643A00A4E1AC /* InfoPlist.strings */; };
-		7EE2EF8518F8643A00A4E1AC /* TwiceCodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2EF8418F8643A00A4E1AC /* TwiceCodingChallengeTests.m */; };
+		7EE2EF8518F8643A00A4E1AC /* WordsGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE2EF8418F8643A00A4E1AC /* WordsGeneratorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35D1D4601AD655E21CEDC3CF /* WordsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsGenerator.h; sourceTree = "<group>"; };
+		35D1DF099E3AEC2EF73EF612 /* WordsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsGenerator.m; sourceTree = "<group>"; };
 		7EE2EF5618F8643900A4E1AC /* TwiceCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwiceCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE2EF5918F8643900A4E1AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7EE2EF5B18F8643900A4E1AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +55,7 @@
 		7EE2EF7818F8643A00A4E1AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7EE2EF8018F8643A00A4E1AC /* TwiceCodingChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwiceCodingChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		7EE2EF8218F8643A00A4E1AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7EE2EF8418F8643A00A4E1AC /* TwiceCodingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwiceCodingChallengeTests.m; sourceTree = "<group>"; };
+		7EE2EF8418F8643A00A4E1AC /* WordsGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordsGeneratorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				7EE2EF6F18F8643900A4E1AC /* ViewController.m */,
 				7EE2EF7118F8643900A4E1AC /* Images.xcassets */,
 				7EE2EF6018F8643900A4E1AC /* Supporting Files */,
+				35D1DF099E3AEC2EF73EF612 /* WordsGenerator.m */,
+				35D1D4601AD655E21CEDC3CF /* WordsGenerator.h */,
 			);
 			path = TwiceCodingChallenge;
 			sourceTree = "<group>";
@@ -137,7 +142,7 @@
 		7EE2EF7E18F8643A00A4E1AC /* TwiceCodingChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				7EE2EF8418F8643A00A4E1AC /* TwiceCodingChallengeTests.m */,
+				7EE2EF8418F8643A00A4E1AC /* WordsGeneratorTests.m */,
 				7EE2EF7F18F8643A00A4E1AC /* Supporting Files */,
 			);
 			path = TwiceCodingChallengeTests;
@@ -252,6 +257,7 @@
 				7EE2EF7018F8643900A4E1AC /* ViewController.m in Sources */,
 				7EE2EF6A18F8643900A4E1AC /* AppDelegate.m in Sources */,
 				7EE2EF6618F8643900A4E1AC /* main.m in Sources */,
+				35D1DBB21DD9E94DFCE4993B /* WordsGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE2EF8518F8643A00A4E1AC /* TwiceCodingChallengeTests.m in Sources */,
+				7EE2EF8518F8643A00A4E1AC /* WordsGeneratorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
