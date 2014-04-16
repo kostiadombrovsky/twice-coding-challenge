@@ -43,6 +43,7 @@
 {
     NSSet* words = [_wordsGenerator generateWordsFromCharacters: @"dog"];
     XCTAssertTrue([words containsObject: @"dog"]);
+    XCTAssertTrue([words containsObject: @"odg"]);
     XCTAssertTrue([words containsObject: @"god"]);
     XCTAssertTrue([words containsObject: @"do"]);
     XCTAssertTrue([words containsObject: @"go"]);

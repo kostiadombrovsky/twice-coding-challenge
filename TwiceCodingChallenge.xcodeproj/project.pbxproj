@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35D1D6A2DB799DB732BF8090 /* DictionaryWordsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1D155F89474FADA716DDB /* DictionaryWordsParser.m */; };
 		35D1DBB21DD9E94DFCE4993B /* WordsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1DF099E3AEC2EF73EF612 /* WordsGenerator.m */; };
+		7E3FCDAC18FE12390024BE7A /* Words in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FCDAB18FE12390024BE7A /* Words */; };
 		7EE2EF5A18F8643900A4E1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2EF5918F8643900A4E1AC /* Foundation.framework */; };
 		7EE2EF5C18F8643900A4E1AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2EF5B18F8643900A4E1AC /* CoreGraphics.framework */; };
 		7EE2EF5E18F8643900A4E1AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE2EF5D18F8643900A4E1AC /* UIKit.framework */; };
@@ -35,8 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35D1D155F89474FADA716DDB /* DictionaryWordsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryWordsParser.m; sourceTree = "<group>"; };
 		35D1D4601AD655E21CEDC3CF /* WordsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordsGenerator.h; sourceTree = "<group>"; };
+		35D1D6D302E0AAFD28E10727 /* DictionaryWordsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryWordsParser.h; sourceTree = "<group>"; };
 		35D1DF099E3AEC2EF73EF612 /* WordsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordsGenerator.m; sourceTree = "<group>"; };
+		7E3FCDAB18FE12390024BE7A /* Words */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Words; path = TwiceCodingChallenge/Words; sourceTree = SOURCE_ROOT; };
 		7EE2EF5618F8643900A4E1AC /* TwiceCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwiceCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE2EF5918F8643900A4E1AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7EE2EF5B18F8643900A4E1AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +129,8 @@
 				7EE2EF6018F8643900A4E1AC /* Supporting Files */,
 				35D1DF099E3AEC2EF73EF612 /* WordsGenerator.m */,
 				35D1D4601AD655E21CEDC3CF /* WordsGenerator.h */,
+				35D1D155F89474FADA716DDB /* DictionaryWordsParser.m */,
+				35D1D6D302E0AAFD28E10727 /* DictionaryWordsParser.h */,
 			);
 			path = TwiceCodingChallenge;
 			sourceTree = "<group>";
@@ -151,6 +158,7 @@
 		7EE2EF7F18F8643A00A4E1AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E3FCDAB18FE12390024BE7A /* Words */,
 				7EE2EF8018F8643A00A4E1AC /* TwiceCodingChallengeTests-Info.plist */,
 				7EE2EF8118F8643A00A4E1AC /* InfoPlist.strings */,
 			);
@@ -233,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3FCDAC18FE12390024BE7A /* Words in Resources */,
 				7EE2EF7218F8643900A4E1AC /* Images.xcassets in Resources */,
 				7EE2EF6418F8643900A4E1AC /* InfoPlist.strings in Resources */,
 				7EE2EF6D18F8643900A4E1AC /* Main.storyboard in Resources */,
@@ -258,6 +267,7 @@
 				7EE2EF6A18F8643900A4E1AC /* AppDelegate.m in Sources */,
 				7EE2EF6618F8643900A4E1AC /* main.m in Sources */,
 				35D1DBB21DD9E94DFCE4993B /* WordsGenerator.m in Sources */,
+				35D1D6A2DB799DB732BF8090 /* DictionaryWordsParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +472,7 @@
 				7EE2EF8A18F8643A00A4E1AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EE2EF8B18F8643A00A4E1AC /* Build configuration list for PBXNativeTarget "TwiceCodingChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +481,7 @@
 				7EE2EF8D18F8643A00A4E1AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
